@@ -26,6 +26,8 @@ meta:
   keywords:         "Cube PHP, 简单的php框架"
   author:           "liaohuqiu@gmail.com"
 
+gems:           ['jekyll-multiple-languages']
+
 # multiple language
 language_default:   'cn'
 
