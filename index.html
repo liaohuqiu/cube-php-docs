@@ -109,7 +109,7 @@
 
       <div class="row">
         <div class="col-md-9" role="main">
-          <h1 id="toc_0">特点</h1>
+          <h1 id="特点">特点</h1>
 
 <ol>
 <li><p>简单，容易上手。</p></li>
@@ -119,11 +119,11 @@
 <li><p>配置区分环境</p></li>
 </ol>
 
-<h1 id="toc_1">目录结构</h1>
+<h1 id="目录结构">目录结构</h1>
 
 <ul>
 <li><p>如下:</p>
-<div class="highlight"><pre><code class="bash language-bash" data-lang="bash">+--+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">+--+
    <span class="p">|</span>
    +- app/                      控制台程序
    +- boot.php                  初始化文件
@@ -145,11 +145,11 @@
 </code></pre></div></li>
 </ul>
 
-<h1 id="toc_2">配置和运行</h1>
+<h1 id="配置和运行">配置和运行</h1>
 
 <hr>
 
-<h3 id="toc_3">配置和初始化</h3>
+<h3 id="配置和初始化">配置和初始化</h3>
 
 <ul>
 <li><p>配置<code>boot.php</code></p>
@@ -160,21 +160,21 @@
 <p>为不同的环境做不同的配置。</p></li>
 </ul>
 
-<h4 id="toc_4">初始化</h4>
+<h4 id="初始化">初始化</h4>
 
 <ul>
 <li><p>配置完成之后：</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">cd cube-admin/app/init
+<div class="highlight"><pre><code class="language-text" data-lang="text">cd cube-admin/app/init
 php cube-init.php
 </code></pre></div></li>
 <li><p>开始监控资源变动</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">cd cube-admin/
+<div class="highlight"><pre><code class="language-text" data-lang="text">cd cube-admin/
 sh begin-watch-res-update.sh
 </code></pre></div>
 <p>到此为止，配置完成。</p></li>
 </ul>
 
-<h3 id="toc_5">域名</h3>
+<h3 id="域名">域名</h3>
 
 <p>你需要三个域名：</p>
 
@@ -184,8 +184,8 @@ sh begin-watch-res-update.sh
 <li>  静态资源域名:   <code>s.cube-php.com</code></li>
 </ul>
 
-<h4 id="toc_6">域名配置示例</h4>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">server {
+<h4 id="域名配置示例">域名配置示例</h4>
+<div class="highlight"><pre><code class="language-text" data-lang="text">server {
     listen       80;
     server_name  www.cube-php.com;
 

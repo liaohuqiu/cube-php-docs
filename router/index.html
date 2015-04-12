@@ -109,11 +109,11 @@
 
       <div class="row">
         <div class="col-md-9" role="main">
-          <h1 id="toc_0">路由规则</h1>
+          <h1 id="路由规则">路由规则</h1>
 
 <hr>
 
-<h3 id="toc_1">1.基本规则</h3>
+<h3 id="1.基本规则">1.基本规则</h3>
 
 <ul>
 <li><p>如下：</p>
@@ -159,12 +159,12 @@
 </tr>
 </tbody></table></li>
 <li><p>需要加规则配置：</p>
-<div class="highlight"><pre><code class="php language-php" data-lang="php"><span class="x">array(&#39;/admin/server/info&#39;, array(&#39;server_id&#39;, &#39;group_id&#39;));</span>
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">array(&#39;/admin/server/info&#39;, array(&#39;server_id&#39;, &#39;group_id&#39;));</span>
 </code></pre></div>
 <p>这样会获得 <code>server_id</code> 和 <code>group_id</code> 的值。</p></li>
 </ul>
 
-<h3 id="toc_2">2. dialog / ajax</h3>
+<h3 id="2.-dialog-/-ajax">2. dialog / ajax</h3>
 
 <ul>
 <li><p>路径后最后加 <code>-ajax</code> 或者 <code>-dialog</code>即可：</p>
@@ -186,11 +186,11 @@
 </tbody></table></li>
 </ul>
 
-<h3 id="toc_3">3. API</h3>
+<h3 id="3.-api">3. API</h3>
 
 <ul>
 <li><p>API 需要分版本, 高版本不存在，使用低版本, 配置存在的版本列表:</p>
-<div class="highlight"><pre><code class="php language-php" data-lang="php"><span class="x">$api_class_list = array(</span>
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">$api_class_list = array(</span>
 <span class="x">    &#39;MApis_Admin_Server_InfoV1&#39; =&gt; 1,</span>
 <span class="x">    &#39;MApis_Admin_Server_InfoV8&#39; =&gt; 1,</span>
 <span class="x">    &#39;MApis_Admin_Server_InfoV10&#39; =&gt; 1,</span>
@@ -232,11 +232,11 @@
 </tbody></table></li>
 </ul>
 
-<h3 id="toc_4">4. 路径映射</h3>
+<h3 id="4.-路径映射">4. 路径映射</h3>
 
 <ul>
 <li><p>配置路径映射，允许多个路径指向一个页面:</p>
-<div class="highlight"><pre><code class="php language-php" data-lang="php"><span class="x">$list = array(</span>
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">$list = array(</span>
 <span class="x">        &#39;/admin&#39; =&gt; &#39;admin/index&#39;,</span>
 <span class="x">        );</span>
 
